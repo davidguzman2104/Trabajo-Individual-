@@ -1,0 +1,114 @@
+/* Fondo y color de texto general */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del título principal */
+.nombre_clase {
+    text-align: center;
+    margin-top: 40px;
+    color: #4a4e69;
+}
+
+.font_sizeXL {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Estilos para los bloques interactivos */
+.display_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 20px;
+}
+
+.cajas_1, .cajas_2, .cajas_3, .cajas_4 {
+    background-color: #9a8c98;
+    color: #fdfdfd;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 200px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cajas_1:hover, .cajas_2:hover, .cajas_3:hover, .cajas_4:hover {
+    background-color: #c9ada7;
+    transform: translateY(-5px);
+}
+
+/* Cada sección */
+.seccion {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Línea divisora */
+hr {
+    margin: 50px auto;
+    width: 80%;
+    border: none;
+    height: 2px;
+    background: #4a4e69;
+}
+
+/* Botón del formulario */
+button {
+    background-color: #4a4e69;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #22223b;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #4a4e69;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #9a8c98;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #22223b;
+    color: #fdfdfd;
+    margin-top: 60px;
+    font-size: 14px;
+}
+.bloque_presentacion {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 800px;
+    padding: 30px 20px;
+    background-color: #f2e9e4;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mensaje_presentacion p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #22223b;
+    margin-bottom: 30px;
+}
